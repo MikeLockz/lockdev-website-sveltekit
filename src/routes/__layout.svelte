@@ -1,45 +1,21 @@
 <script lang="ts">
 	import Header from '$lib/header/Header.svelte';
-	import '../app.css';
+	import About from '$lib/about/About.svelte';
+	import Experience from '$lib/experience/Experience.svelte';
+	import Links from '$lib/links/Links.svelte';
+	import '../styles/tailwind-output.css';
 </script>
 
 <Header />
 
-<main>
-	<slot />
-</main>
+<About />
 
-<footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
-</footer>
+<Experience />
 
-<style>
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 1024px;
-		margin: 0 auto;
-		box-sizing: border-box;
-	}
+<Links />
 
-	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 40px;
-	}
+<footer />
 
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 40px 0;
-		}
-	}
+<style lang="scss" global>
+	$sm: 768px;
 </style>
