@@ -10,7 +10,7 @@
 
 <style lang="scss">
 	header {
-		background: #333333 url('lockdev-bg.jpg') no-repeat center top;
+		background: #333333 url('./lockdev-bg.jpg') no-repeat center top;
 		background-size: cover;
 		min-height: 100vh;
 

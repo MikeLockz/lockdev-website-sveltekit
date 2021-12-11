@@ -9,7 +9,7 @@
 
 	<div class="about-content">
 		<p class="intro font-serif">
-			I'm Mike, a front-end developer turned product manager focused on delivering value
+			I'm Mike, a developer working as a manager, focused on delivering value
 		</p>
 
 		<div class="content">
@@ -76,7 +76,6 @@
 		@media (min-width: $sm) {
 			max-width: 1170px;
 			margin: $desktop_section_vertical_gutter auto;
-			padding: 0;
 		}
 	}
 	.about-header {
@@ -115,6 +114,7 @@
 		font-size: 45px;
 		line-height: 55px;
 		color: #222;
+		margin-bottom: 40px;
 		@media (min-width: $sm) {
 			text-align: right;
 		}

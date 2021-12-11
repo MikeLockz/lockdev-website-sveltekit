@@ -14,13 +14,11 @@
 			<h3>Knowledge, skills, hobbies</h3>
 
 			<ul>
-				<li>
-					Process: Agile | Human Centered Design | Design Sprints | User Studies | Focus Groups
-				</li>
-				<li>
-					Technologies: HTML | CSS - LESS, style guides, frameworks | Javascript - Angular 1.x |
-					WordPress
-				</li>
+				<li>Process: Agile | Waterfall | Human Centered Design</li>
+				<li>Methods: Kanban | Scrum | Design Sprints | User Studies | Focus Groups</li>
+				<li>Front: React | HTML | CSS | JS | AngularJS | WordPress</li>
+				<li>Back: Rails | .Net | Node</li>
+				<li>Ops: Docker | Docker-Compose | Swarm</li>
 				<li>Extracurriculars: Refresh Denver | Coder Dojo Denver | Hackathons</li>
 			</ul>
 		</div>
@@ -31,7 +29,7 @@
 			<div>
 				<div class="experience">
 					<h4>LockDev Ltd.</h4>
-					<h5>Owner since 2012 and still operating</h5>
+					<h5>Owner since 2012</h5>
 					<p>Consult, build, and implement solutions for varied small and medium businesses.</p>
 				</div>
 				<div class="experience">
@@ -68,8 +66,8 @@
 					<h4>DispatchHealth</h4>
 					<h5>Engineering Manager</h5>
 					<p>
-						Enhance team health and deliver cross-domain solutions for international software
-						development team.
+						Enhance team health and deliver cross-domain solutions for remote software development
+						team.
 					</p>
 
 					<h5>Team Lead</h5>
@@ -83,7 +81,7 @@
 				</div>
 
 				<div class="experience">
-					<h4>Consensys</h4>
+					<h4>Front End Developer @ Consensys</h4>
 					<h5>Remote 2019 until 2020</h5>
 					<p>
 						Launch open-source design system, research and advocate for user experience best
@@ -142,6 +140,9 @@
 	.experiences {
 		@media (min-width: $sm) {
 			display: flex;
+		}
+		& > div {
+			margin: 0 40px;
 		}
 	}
 	.overview {
