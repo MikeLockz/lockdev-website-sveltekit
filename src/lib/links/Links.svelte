@@ -12,7 +12,7 @@
 
 <style lang="scss">
 	section {
-		background: #333333 url('./lockdev-bg.jpg') no-repeat center bottom;
+		background: #333333 url('/lockdev-bg.jpg') no-repeat center bottom;
 		padding: $mobile_section_vertical_gutter;
 		@media (min-width: $sm) {
 			padding: $desktop_section_vertical_gutter;
