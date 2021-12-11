@@ -12,7 +12,8 @@
 
 <style lang="scss">
 	section {
-		background: #333333 url('/lockdev-bg.jpg') no-repeat center bottom;
+		background: linear-gradient(rgb(46 44 44 / 92%), rgb(44 40 35 / 85%)),
+			#333333 url('/lockdev-bg.jpg') no-repeat center bottom;
 		padding: $mobile_section_vertical_gutter;
 		@media (min-width: $sm) {
 			padding: $desktop_section_vertical_gutter;
