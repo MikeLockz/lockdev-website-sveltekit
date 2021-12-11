@@ -8,6 +8,14 @@
 		</li>
 		<li><a href="http://github.com/mikelockz" title="Github Mike Lockwitz">GitHub</a></li>
 	</ul>
+
+	<ul>
+		<li>
+			<a href="https://rimble-devcon-demo.netlify.com/" title="DevCon V - Osaka Demo">DevCon Demo</a
+			>
+		</li>
+		<li><a href="https://rimble-storefront.vercel.app/" title="Rimble-UI">Rimble UI</a></li>
+	</ul>
 </section>
 
 <style lang="scss">
@@ -27,8 +35,9 @@
 		margin-bottom: 120px;
 	}
 	h2 {
-		font-size: 15px;
+		font-size: 18px;
 		color: #fff;
+		text-align: center;
 	}
 	header img {
 		width: 36px;
@@ -37,6 +46,7 @@
 	}
 	ul {
 		text-align: center;
+		margin: 14px auto;
 	}
 	li {
 		display: inline-block;
@@ -51,8 +61,9 @@
 	}
 	a {
 		color: #fff;
+		text-decoration: underline;
 	}
 	a:hover {
-		text-decoration: underline;
+		color: #fefefe;
 	}
 </style>
