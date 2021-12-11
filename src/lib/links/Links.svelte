@@ -4,17 +4,29 @@
 <section>
 	<ul>
 		<li>
-			<a href="https://www.linkedin.com/in/mlockwitz/" title="LinkedIn Mike Lockwitz">LinkedIn</a>
+			<a
+				href="https://www.linkedin.com/in/mlockwitz/"
+				title="LinkedIn Mike Lockwitz"
+				target="_blank">LinkedIn</a
+			>
 		</li>
-		<li><a href="http://github.com/mikelockz" title="Github Mike Lockwitz">GitHub</a></li>
+		<li>
+			<a href="http://github.com/mikelockz" title="Github Mike Lockwitz" target="_blank">GitHub</a>
+		</li>
 	</ul>
 
 	<ul>
 		<li>
-			<a href="https://rimble-devcon-demo.netlify.com/" title="DevCon V - Osaka Demo">DevCon Demo</a
+			<a
+				href="https://rimble-devcon-demo.netlify.com/"
+				title="DevCon V - Osaka Demo"
+				target="_blank">DevCon Demo</a
 			>
 		</li>
-		<li><a href="https://rimble-storefront.vercel.app/" title="Rimble-UI">Rimble UI</a></li>
+		<li>
+			<a href="https://rimble-storefront.vercel.app/" title="Rimble-UI" target="_blank">Rimble UI</a
+			>
+		</li>
 	</ul>
 </section>
 
